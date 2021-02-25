@@ -1,0 +1,135 @@
+/* General Style */
+:root { 
+    --main-color: #b4d1da;
+    --light-color: #ffffff;
+    --dark-color: red;
+}
+
+ * { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body { 
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark-color);
+}
+
+ul { 
+    list-style: none;
+}
+
+h1 { 
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2 { 
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p { 
+    font-size: 24px;
+    font-weight: 400;
+}
+
+a { 
+    text-decoration: none;
+    font-size: 400;
+    font-weight: 400;
+    color: var (--dark-color);
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    margin-right: 50px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+nav img {
+    height: 20px;
+    width: 20px;
+}
+
+/* nav ul li:last-child img{
+    height: 15px;
+    width: 25px;
+
+} */
+
+
+.socialmedia a {
+    height: 15px;
+    width: 25px;
+}
+
+/* Header Content */
+
+.content {
+    min-height: 530px;
+    background: var(--main-color)
+}
+
+.content h1 {
+    max-width: 896px;
+    margin: 153px 120px 153px ;
+}
+
+/* Project */
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects img {
+    width: 100%;
+
+}
+
+/* About Me */
+
+.about {
+    min-height: 700px;
+}
+
+.about-content {
+    padding: 126px 120px,
+}
+
+.about-content .text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 96px;
+
+}   
+
+/* Footer */
+
+.footer {
+    min-height: 350px;
+    background: var(--main-color);
+}   
+
+.footer .footer-content {
+    padding-top: 90px 120px 
+}   
